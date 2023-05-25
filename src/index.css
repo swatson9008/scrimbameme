@@ -74,6 +74,43 @@ button:focus-visible {
   padding-right: 30px;
 }
 
+.MemeForm {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+  padding: 3rem;
+}
+
+input {
+  font-family: 'Karla', sans-serif;
+}
+
+input[type="text"] {
+  border: 2px solid rgb(190, 190, 190);
+  height: 1.2rem;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+input[type="text"]:focus {
+  border: 2px solid rgb(170, 170, 170);
+  outline: none;
+}
+
+.SubmitButton {
+  grid-column: 1 / span 2;
+  background-image: linear-gradient(to right, rgb(128, 24, 224), rgb(157, 85, 224));
+  color: white;
+  border: none;
+  height: 2.7rem;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+  border-radius: 5px;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
