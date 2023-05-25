@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -59,12 +61,13 @@ button:focus-visible {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 .Title {
   padding-left: 30px;
   font-weight: bold;
+  font-size: 20px;
 }
 
 .Course {
