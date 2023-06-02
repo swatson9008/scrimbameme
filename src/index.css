@@ -113,8 +113,7 @@ input[type="text"]:focus {
 }
 
 .memeImages {
-  width: 50%;
-  height: 50%;
+  max-width: 80%;
   object-fit: cover;
   display: block;
   margin-left: auto;
