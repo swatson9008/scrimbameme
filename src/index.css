@@ -133,6 +133,12 @@ input[type="text"]:focus {
   }
 }
 
+@media(max-width: 1000px){
+  .meme--text {
+    font-size: 0.5em
+  }
+}
+
 .memeEntry {
     position: relative;
 }
