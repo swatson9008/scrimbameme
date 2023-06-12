@@ -80,7 +80,6 @@ button:focus-visible {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 15px;
-  padding: 3rem;
 }
 
 input {
@@ -138,6 +137,10 @@ input[type="text"]:focus {
   .meme--text {
     font-size: 1em
   }
+
+  .MemeForm {
+    margin: 20px;
+  }
 }
 
 .memeEntry {
@@ -147,6 +150,10 @@ input[type="text"]:focus {
 @media(min-width: 800px){
   .meme--text {
     font-size: 2em;
+  }
+
+  .MemeForm {
+    padding: 3rem;
   }
 }
 
