@@ -152,6 +152,11 @@ input[type="text"]:focus {
     font-size: 2em;
   }
 
+  .Meme {
+    max-width: 60%;
+    margin: auto;
+  }
+
   .MemeForm {
     padding: 3rem;
   }
